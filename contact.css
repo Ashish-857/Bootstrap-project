@@ -1,0 +1,33 @@
+
+
+FORM {
+    border: 3PX solid BLACK;
+    border-radius: 30PX;
+    width: 600PX;
+    font-size: x-large;
+  padding: 80px;
+}
+
+INPUT {
+    border: 2PX solid RED;
+    width: 400PX;
+    border-radius: 10PX;
+    padding: 3PX;
+    box-sizing: border-box;
+}
+
+INPUT[TYPE=SUBMIT]:hover {
+    background: GREEN;
+
+}
+
+INPUT[TYPE=RESET]:hover {
+    background: RED;
+}
+
+body {
+    background-image: url(s1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
